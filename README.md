@@ -24,3 +24,10 @@ This portfolio documents my hands-on learning in SDLC, Python, and PM tooling.
 ## Contact
 📧 aiellorob2020@gmail.com
 💼 [LinkedIn](https://www.linkedin.com/in/roberta-aiello-8096311b4)
+
+## Learning Journey
+- ✅ Git & GitHub — learngitbranching.js.org completed
+- ✅ VLOOKUP + INDEX+MATCH — Google Sheets
+- ✅ CI/CD + DevOps — fundamentals
+- ✅ Technical User Stories with Acceptance Criteria
+- 🔄 Python — Kaggle Learn (starting Week 2)
