@@ -5,7 +5,7 @@ This portfolio documents my hands-on learning in SDLC, Python, and PM tooling.
 
 ## About Me
 - 🎯 Target: Junior PM / PMO roles in Italy and Canada
-- 📍 Based in Bali → Rome (July 2026) → Canada (Oct 2026)
+- 📍 Based in Rome → Canada (Oct 2026)
 - 🏅 Google PM Certificate | Scrum Foundation | CAPM in progress
 
 ## Projects (in progress)
