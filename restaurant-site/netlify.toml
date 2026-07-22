@@ -1,0 +1,28 @@
+# ─── Netlify config ────────────────────────────────────────────────
+# Questo file va letto dalla root del repository oppure da dentro
+# restaurant-site/ se il Base Directory nel dashboard Netlify è
+# impostato su "restaurant-site".
+#
+# Opzione consigliata: copia/sposta questo file alla ROOT del repo
+# e lascia invariato il campo "base" qui sotto.
+
+[build]
+  base    = "restaurant-site"
+  command = "npm run build"
+  publish = "dist"
+
+[functions]
+  # Relativo alla base directory (restaurant-site/)
+  directory    = "netlify/functions"
+  node_bundler = "esbuild"
+
+# ─── Variabili d'ambiente (impostare in Netlify → Site settings) ───
+# RESEND_API_KEY    → API key Resend per l'invio email
+# RESTAURANT_EMAIL  → email destinatario (ristorante)
+# FROM_EMAIL        → mittente verificato su Resend
+
+# SPA redirect — tutte le route servono index.html
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200

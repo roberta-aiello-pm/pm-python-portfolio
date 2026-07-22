@@ -1,0 +1,143 @@
+{
+  "_nota": "Unica fonte di verità per il menu. Modifica qui e rideploya su Netlify.",
+  "stagione": "Estate 2025",
+  "intro": "Ingredienti di mercato, tecnica rispettosa, nessuna sovrastruttura. Il menu varia con la stagionalità dei prodotti.",
+  "categorie": [
+    {
+      "id": "antipasti",
+      "label": "Antipasti",
+      "piatti": [
+        {
+          "nome": "Supplì al telefono",
+          "descrizione": "Riso mantecato, ragù di quinto quarto, fior di latte filante. Fritti al momento.",
+          "prezzo": "7",
+          "badge": [],
+          "allergeni": ["glutine", "latte", "uova"]
+        },
+        {
+          "nome": "Bruschette ai pomodorini",
+          "descrizione": "Pane casereccio tostato, datterini di Pachino, basilico fresco, olio EVO del Sabino.",
+          "prezzo": "6",
+          "badge": ["veg"],
+          "allergeni": ["glutine"]
+        },
+        {
+          "nome": "Fiori di zucca fritti",
+          "descrizione": "Ripieni di ricotta fresca e alici di Cetara, pastella leggera alla birra artigianale.",
+          "prezzo": "9",
+          "badge": [],
+          "allergeni": ["glutine", "latte", "uova", "pesce"]
+        },
+        {
+          "nome": "Alici marinate al limone",
+          "descrizione": "Alici fresche di Anzio, limone di Amalfi, cipolla di Tropea, prezzemolo romano.",
+          "prezzo": "11",
+          "badge": [],
+          "allergeni": ["pesce"]
+        }
+      ]
+    },
+    {
+      "id": "primi",
+      "label": "Primi",
+      "piatti": [
+        {
+          "nome": "Cacio e pepe",
+          "descrizione": "Tonnarelli di Gragnano, pecorino romano DOP stagionato 18 mesi, pepe nero Tellicherry macinato al momento.",
+          "prezzo": "16",
+          "badge": ["veg"],
+          "allergeni": ["glutine", "latte", "uova"]
+        },
+        {
+          "nome": "Rigatoni alla carbonara",
+          "descrizione": "Guanciale di Amatrice, tuorli di uova di campagna, pecorino romano, pepe in abbondanza.",
+          "prezzo": "17",
+          "badge": [],
+          "allergeni": ["glutine", "latte", "uova"]
+        },
+        {
+          "nome": "Bucatini all'amatriciana",
+          "descrizione": "Guanciale di Amatrice, San Marzano dell'Agro Sarnese-Nocerino, cipolla bianca, pecorino, peperoncino secco.",
+          "prezzo": "15",
+          "badge": [],
+          "allergeni": ["glutine", "latte"]
+        },
+        {
+          "nome": "Gnocchi alla Romana al forno",
+          "descrizione": "Semolino di grano duro, burro di malga, salvia fresca, Parmigiano Reggiano 24 mesi, gratinati al forno.",
+          "prezzo": "14",
+          "badge": ["veg"],
+          "allergeni": ["glutine", "latte", "uova"]
+        }
+      ]
+    },
+    {
+      "id": "secondi",
+      "label": "Secondi",
+      "piatti": [
+        {
+          "nome": "Coda alla Vaccinara",
+          "descrizione": "Coda di bue brasata lentamente con vino rosso, pomodoro, cioccolato fondente, uvetta, pinoli e sedano.",
+          "prezzo": "24",
+          "badge": [],
+          "allergeni": ["sedano", "frutta a guscio", "latte"]
+        },
+        {
+          "nome": "Saltimbocca alla Romana",
+          "descrizione": "Piccatine di vitello, prosciutto crudo di Norcia DOP, salvia fresca, sfumato al Frascati DOC.",
+          "prezzo": "22",
+          "badge": [],
+          "allergeni": ["latte"]
+        },
+        {
+          "nome": "Cicoria ripassata con uova in camicia",
+          "descrizione": "Cicoria di campo raccolta a mano, aglio, peperoncino di Gaeta, uova di campagna, pane tostato.",
+          "prezzo": "14",
+          "badge": ["veg"],
+          "allergeni": ["glutine", "uova"]
+        },
+        {
+          "nome": "Baccalà in guazzetto",
+          "descrizione": "Baccalà dissalato 48 ore, pomodorini del Piennolo, olive di Gaeta, capperi di Pantelleria, patate novelle.",
+          "prezzo": "21",
+          "badge": [],
+          "allergeni": ["pesce"]
+        }
+      ]
+    },
+    {
+      "id": "dolci",
+      "label": "Dolci",
+      "piatti": [
+        {
+          "nome": "Tiramisù di Sobrio",
+          "descrizione": "Savoiardi artigianali inzuppati nel caffè della Giamaica, crema di mascarpone, cacao amaro del Madagascar.",
+          "prezzo": "8",
+          "badge": ["veg"],
+          "allergeni": ["glutine", "latte", "uova"]
+        },
+        {
+          "nome": "Torta di ricotta e visciole",
+          "descrizione": "Ricotta di bufala campana DOP, visciole in sciroppo di Vignola, frolla al burro di malga.",
+          "prezzo": "7",
+          "badge": ["veg"],
+          "allergeni": ["glutine", "latte", "uova"]
+        },
+        {
+          "nome": "Granita di caffè con panna",
+          "descrizione": "Caffè espresso ristretto La Marzocco, panna fresca montata a mano, zucchero semolato.",
+          "prezzo": "6",
+          "badge": ["veg"],
+          "allergeni": ["latte"]
+        },
+        {
+          "nome": "Semifreddo al torroncino",
+          "descrizione": "Croccante di mandorle di Noto, zabaione al Marsala Superiore, fondente 72% grattugiato.",
+          "prezzo": "8",
+          "badge": ["veg"],
+          "allergeni": ["frutta a guscio", "latte", "uova"]
+        }
+      ]
+    }
+  ]
+}
