@@ -6,6 +6,7 @@ import Menu from './components/sections/Menu'
 import Gallery from './components/sections/Gallery'
 import Reservations from './components/sections/Reservations'
 import Contact from './components/sections/Contact'
+import ConciergeWidget from './components/ui/ConciergeWidget'
 
 export default function App() {
   return (
@@ -22,6 +23,8 @@ export default function App() {
       </main>
 
       <Footer />
+
+      <ConciergeWidget />
     </>
   )
 }
